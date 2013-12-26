@@ -96,3 +96,19 @@ $break          : 50em 16;
     $night-highlight: #666;
     $night-content: #333333;
 
+    // ---------------------------------------------------------------------
+    // Meteo colors
+
+    $meteo-bg: #EFEFEF;			// couleur de fond
+    $meteo-shadow: #2B3A42;		// filets + survol liens
+    $meteo-title: #3F5765;		// titre et barre de navigation
+    $meteo-content: #EFEFEF;		// arrière plan des contenus
+    $meteo-content-bg: #BDD4DE;		// couleur de fond des blocs, des liens du menu de nav, du formulaire de recherche
+    $meteo-content-title: #FF530D;      // sous-titres des contenus 
+    $meteo-content-txt: black;		// couleur du texte des contenus
+    $meteo-visited-nav: white;		// couleur des liens du menu principal
+    $meteo-visited: #FF530D;
+    $meteo-home: #3F5765;			// Lien vers la page d'accueil, fond du menu principal
+    $meteo-active: red;
+    $meteo-header-bg: #3F5765;  
+    $meteo-header-txt: white;

@@ -24,6 +24,7 @@
   -- Summer Styles
   -- Autumn Styles
   -- Night Styles
+  -- Meteo Styles
   */
   /* !---------- General HTML Elements ---------- */
   body {
@@ -1876,6 +1877,165 @@
   }
   .night #content div.hTagcloud ul li {
     background-color: #252525;
+  }
+
+  /* !----------  Meteo Styles ---------- */
+  .meteo body {
+    background-color: #efefef;
+    color: black;
+  }
+  .meteo h1 {
+    color: #3f5765;
+  }
+  .meteo h2, .meteo h3, .meteo h4, .meteo h5, .meteo h6 {
+    color: #ff530d;
+  }
+  .meteo #site-title a {
+    color: #3f5765;
+  }
+  .meteo input[type=submit], .meteo button, .meteo .button, .meteo #advanced-search {
+    background-color: #3f5765;
+    color: #bdd4de;
+  }
+  .meteo input[type=text], .meteo input[type=password], .meteo textarea {
+    background-color: #bdd4de;
+    border: 1px solid #3f5765;
+    color: black;
+  }
+  .meteo a:link {
+    color: #3f5765;
+  }
+  .meteo a:visited {
+    color: #ff530d;
+  }
+  .meteo a:hover, .meteo a:active {
+    color: red;
+  }
+  .meteo header {
+    background-color: #efefef;
+  }
+  .meteo nav.top {
+    background-color: #3f5765;
+  }
+  .meteo nav.top li:hover a {
+    color: #2b3a42;
+  }
+  .meteo nav.top a:link, .meteo nav.top a:visited {
+    color: white;
+  }
+  .meteo nav.top ul li ul {
+    background-color: #3f5765;
+  }
+  .meteo nav.top ul li ul li > a:link, .meteo nav.top ul li ul li > a:visited {
+    color: #3f5765;
+  }
+  .meteo nav.top ul li ul li > a:active, .meteo nav.top ul li ul li > a:hover, .meteo nav.top ul li ul li:hover > a {
+    color: red;
+  }
+  .meteo #intro {
+    color: #3f5765;
+  }
+  .meteo #content,
+  .meteo #secondary-nav .current a,
+  .meteo #secondary-nav a.current,
+  .meteo .exhibit-section-nav .current a {
+    background-color: #efefef;
+  }
+  .meteo #advanced-form {
+    background-color: #bdd4de;
+    color: black;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #2b3a42;
+  }
+  .meteo #home #content > div {
+    border-color: #3f5765;
+  }
+  .meteo #home #content div .items-list .item {
+    border-top: 1px solid #2b3a42;
+  }
+  .meteo #home #content div .items-list .item:first-of-type {
+    border-top: 0;
+  }
+  .meteo #home #content > div img, .meteo .items.show #itemfiles a,
+  .meteo #home #content .item, .meteo #home #content div .view-items-link,
+  .meteo .collections #content div .view-items-link {
+    border-color: #2b3a42;
+  }
+  .meteo #content h1 {
+    color: #3f5765;
+  }
+  .meteo #content h2 {
+    border-color: #2b3a42;
+  }
+  .meteo #content > div, .meteo #content #primary > div, .meteo #content #sidebar > div,
+  .meteo #content #advanced-search-form > div, .meteo #content #exhibit-pages {
+    border-color: #3f5765;
+    background-color: #bdd4de;
+  }
+  .meteo #content #primary > div, .meteo #content #sidebar > div,
+  .meteo #content .item-pagination li {
+    background-color: #bdd4de;
+  }
+  .meteo #content .pagination_previous a, .meteo #content .pagination_next a {
+    background-color: #bdd4de;
+  }
+  .meteo #content nav .pagination_list {
+    background-color: #bdd4de;
+  }
+  .meteo #content .pagination_previous a, .meteo #content .pagination_next a {
+    background-color: #bdd4de;
+  }
+  .meteo #content .item-img {
+    border-color: #2b3a42;
+  }
+  .meteo #content div.hTagcloud {
+    border: 0;
+    background-color: transparent;
+    -webkit-box-shadow: transparent 0 0 0;
+    -moz-box-shadow: transparent 0 0 0;
+    box-shadow: transparent 0 0 0;
+  }
+  .meteo #search-results th {
+    background-color: #3f5765;
+    color: white;
+  }
+  .meteo #search-results td {
+    background-color: #bdd4de;
+  }
+  .meteo #search-filters li, .meteo #item-filters li {
+    background-color: #3f5765;
+  }
+  .meteo .page #content {
+    border-color: #3f5765;
+  }
+  .meteo .page #primary {
+    background-color: #bdd4de;
+  }
+  .meteo footer {
+    background-color: #3f5765;
+  }
+  .meteo footer p {
+    color: white;
+  }
+  .meteo .exhibit-page-nav {
+    background-color: #bdd4de;
+  }
+  .meteo .exhibit-page-nav .current, .meteo .exhibit-child-nav .current {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .meteo #exhibit-page-navigation a, .meteo #exhibit-page-navigation span {
+    background-color: #bdd4de;
+  }
+  .meteo .exhibits.show #content .exhibit-page-nav > li:nth-child(3) {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+  .meteo .exhibits.tags #content p:only-of-type {
+    background-color: #bdd4de;
+    border-color: #3f5765;
+  }
+  .meteo #content div.hTagcloud ul li {
+    background-color: #bdd4de;
   }
 }
 @media screen and (min-width: 768px) {
