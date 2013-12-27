@@ -6,6 +6,7 @@ Table of Contents
 ----- Pagination
 -- Search
 -- Content
+-- Footer
 -- Home
 -- Items
 -- Collections
@@ -129,6 +130,26 @@ header, nav.top, #content, footer {
     @include padding-leader(2);
     @include padding-trailer(2);
 }
+
+
+/* !---------- Footer ---------- */
+
+Footer {
+    @include pie-clearfix;
+
+.col1 {
+    @include span-columns (4 alpha, 12);
+}
+
+.col2 {
+    @include span-columns (4, 12);
+}
+
+.col3 {
+    @include span-columns (4 omega, 12);
+    }
+}
+
 
 
 /* !---------- Home ---------- */

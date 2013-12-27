@@ -1881,17 +1881,17 @@
 
   /* !----------  Meteo Styles ---------- */
   .meteo body {
-    background-color: #efefef;
+    background-color: white;
     color: black;
   }
-  .meteo h1 {
-    color: #3f5765;
+  .meteo h1, .meteo h2 {
+    color: #002a4a;
   }
-  .meteo h2, .meteo h3, .meteo h4, .meteo h5, .meteo h6 {
-    color: #ff530d;
+  .meteo h3, .meteo h4, .meteo h5, .meteo h6 {
+    color: #e33200;
   }
   .meteo #site-title a {
-    color: #3f5765;
+    color: #002a4a;
   }
   .meteo input[type=submit], .meteo button, .meteo .button, .meteo #advanced-search {
     background-color: #3f5765;
@@ -1903,37 +1903,38 @@
     color: black;
   }
   .meteo a:link {
-    color: #3f5765;
+    color: #002a4a;
   }
   .meteo a:visited {
-    color: #ff530d;
+    color: #e33200;
   }
   .meteo a:hover, .meteo a:active {
-    color: red;
+    color: #e33200;
   }
   .meteo header {
-    background-color: #efefef;
+    background-color: white;
   }
-  .meteo nav.top {
-    background-color: #3f5765;
+  .meteo nav.top, .meteo nav.bottom {
+    background-color: #002a4a;
   }
-  .meteo nav.top li:hover a {
-    color: #2b3a42;
+  .meteo nav.top li:hover a, .meteo nav.bottom li:hover a {
+    color: #e33200;
+    background-color: #bdd4de;
   }
-  .meteo nav.top a:link, .meteo nav.top a:visited {
+  .meteo nav.top a:link, .meteo nav.top a:visited, .meteo nav.bottom a:link, .meteo nav.bottom a:visited {
     color: white;
   }
-  .meteo nav.top ul li ul {
+  .meteo nav.top ul li ul, .meteo nav.bottom ul li ul {
     background-color: #3f5765;
   }
-  .meteo nav.top ul li ul li > a:link, .meteo nav.top ul li ul li > a:visited {
-    color: #3f5765;
+  .meteo nav.top ul li ul li > a:link, .meteo nav.top ul li ul li > a:visited, .meteo nav.bottom ul li ul li > a:link, .meteo nav.bottom ul li ul li > a:visited {
+    color: #002a4a;
   }
-  .meteo nav.top ul li ul li > a:active, .meteo nav.top ul li ul li > a:hover, .meteo nav.top ul li ul li:hover > a {
-    color: red;
+  .meteo nav.top ul li ul li > a:active, .meteo nav.top ul li ul li > a:hover, .meteo nav.top ul li ul li:hover > a, .meteo nav.bottom ul li ul li > a:active, .meteo nav.bottom ul li ul li > a:hover, .meteo nav.bottom ul li ul li:hover > a {
+    color: #e33200;
   }
   .meteo #intro {
-    color: #3f5765;
+    color: #002a4a;
   }
   .meteo #content,
   .meteo #secondary-nav .current a,
@@ -1946,13 +1947,13 @@
     color: black;
     border-width: 0 1px 1px 1px;
     border-style: solid;
-    border-color: #2b3a42;
+    border-color: #ff9311;
   }
   .meteo #home #content > div {
     border-color: #3f5765;
   }
   .meteo #home #content div .items-list .item {
-    border-top: 1px solid #2b3a42;
+    border-top: 1px solid #ff9311;
   }
   .meteo #home #content div .items-list .item:first-of-type {
     border-top: 0;
@@ -1960,13 +1961,14 @@
   .meteo #home #content > div img, .meteo .items.show #itemfiles a,
   .meteo #home #content .item, .meteo #home #content div .view-items-link,
   .meteo .collections #content div .view-items-link {
-    border-color: #2b3a42;
+    border-color: #ff9311;
   }
   .meteo #content h1 {
-    color: #3f5765;
+    color: #ff9311;
   }
   .meteo #content h2 {
-    border-color: #2b3a42;
+    border-color: #3f5765;
+    border-width: 0 0 1px 0;
   }
   .meteo #content > div, .meteo #content #primary > div, .meteo #content #sidebar > div,
   .meteo #content #advanced-search-form > div, .meteo #content #exhibit-pages {
@@ -1987,7 +1989,7 @@
     background-color: #bdd4de;
   }
   .meteo #content .item-img {
-    border-color: #2b3a42;
+    border-color: #ff9311;
   }
   .meteo #content div.hTagcloud {
     border: 0;
@@ -2013,7 +2015,7 @@
     background-color: #bdd4de;
   }
   .meteo footer {
-    background-color: #3f5765;
+    background-color: #002a4a;
   }
   .meteo footer p {
     color: white;
@@ -2047,6 +2049,7 @@
   ----- Pagination
   -- Search
   -- Content
+  -- Footer
   -- Home
   -- Items
   -- Collections
@@ -2177,6 +2180,35 @@
   .page #primary {
     padding-top: 3em;
     padding-bottom: 3em;
+  }
+
+  /* !---------- Footer ---------- */
+  Footer {
+    *zoom: 1;
+  }
+  Footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  Footer .col1 {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+  Footer .col2 {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+  Footer .col3 {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
   }
 
   /* !---------- Home ---------- */

@@ -1848,9 +1848,9 @@ footer {
         color: $meteo-content-txt;
     }
     
-    h1 { color: $meteo-home; }
+    h1, h2 { color: $meteo-home; }
 
-    h2, h3, h4, h5, h6 { color: $meteo-content-title; }
+   h3, h4, h5, h6 { color: $meteo-content-title; }
     
     #site-title a { color: $meteo-home; }
 
@@ -1873,10 +1873,10 @@ footer {
 
     header { background-color: $meteo-bg; }
     
-    nav.top { 
+    nav.top, nav.bottom { 
         background-color: $meteo-home; 
 
-        li:hover a { color: $meteo-shadow; }
+        li:hover a { color: $meteo-content-title; background-color: $meteo-content-bg; }
         
         a:link, a:visited  { color: $meteo-visited-nav; }
         a:active, a:hover  {  }
@@ -1927,9 +1927,9 @@ footer {
     }
 
     #content {
-        h1 { color: $meteo-home; }
+        h1 { color: $meteo-shadow; }
         
-        h2 { border-color: $meteo-shadow; }
+        h2 { border-color: $meteo-header-bg; border-width: 0 0 1px 0;}
 
         & > div, #primary > div, #sidebar > div,
         #advanced-search-form > div, #exhibit-pages { 
